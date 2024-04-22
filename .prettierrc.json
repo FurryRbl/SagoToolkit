@@ -1,0 +1,28 @@
+{
+	"semi": true,
+	"tabWidth": 4,
+	"useTabs": true,
+	"singleQuote": false,
+	"trailingComma": "all",
+	"overrides": [
+		{
+			"files": "*.yml",
+			"options": {
+				"useTabs": false
+			}
+		},
+		{
+			"files": "*.{html,vue}",
+			"options": {
+				"printWidth": 200
+			}
+		},
+		{
+			"files": "*.md",
+			"options": {
+				"useTabs": false,
+				"tabWidth": 2
+			}
+		}
+	]
+}

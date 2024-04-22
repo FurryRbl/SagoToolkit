@@ -1,0 +1,22 @@
+{
+	"extends": [
+		"prettier",
+		"taro",
+		"plugin:prettier/recommended",
+		"plugin:vue/recommended"
+	],
+	"plugins": ["prettier"],
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 14,
+		"sourceType": "module"
+	},
+	"rules": {
+		"eqeqeq": ["error", "always"],
+		"prettier/prettier": "warn"
+	}
+}

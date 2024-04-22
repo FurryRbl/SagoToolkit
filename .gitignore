@@ -1,0 +1,22 @@
+# 日志
+*.log
+
+# MacOS 文件
+.DS_Store
+
+# 微信小程序
+project.private.config.json
+
+# Node模块
+/node_modules
+
+# 构建输出
+dist/
+
+# 临时文件
+.temp/
+.rn_temp/
+
+# 其他
+deploy_versions/
+.swc
